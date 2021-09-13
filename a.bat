@@ -1,0 +1,2 @@
+diskpart
+list disk
