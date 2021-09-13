@@ -1,5 +1,7 @@
 sudo su
 apt update
+apt install cowsay
+cowsay hi
 fdisk -l
 MKDIR /content
 cd /content
