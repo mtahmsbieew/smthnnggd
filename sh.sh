@@ -1,8 +1,8 @@
 sudo su
-apt update
-apt install cowsay
+sudo apt update
+sudo apt install cowsay
 cowsay hi
-fdisk -l
+sudo fdisk -l
 MKDIR /content
 cd /content
 curl https://rclone.org/install.sh | sudo bash
