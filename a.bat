@@ -1,2 +1,3 @@
+dir
 diskpart
 list disk
