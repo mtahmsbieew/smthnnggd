@@ -7,7 +7,7 @@ sudo wget https://rclone.org/install.sh
 cd ..
 sudo chmod -R 777 rclone
 cd rclone
-sudo bash -s beta install.sh
+sudo bash install.sh -s beta
 ls -l
 rclone lsd Drive:
 echo oooooooooooooo
