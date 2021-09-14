@@ -12,8 +12,7 @@ mkdir -p /Users/runner/drive
 cd /Users/runner
 sudo chmod -R 777 drive
 cd drive
-sudo rclone mount --daemon --allow-other --buffer-size 3g --allow-non-empty -vv --dump=headers --retries=1 --low-level-retries=1 --log-level=DEBUG --log-file=rclone.log Drive: /Users/runner/drive
-cat rclone.log
+sudo rclone mount --daemon --allow-other --buffer-size 3g --allow-non-empty -vv Drive: /Users/runner/drive
 touch olalalalalalalalalala
 ls -al
 cd ..
