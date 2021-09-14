@@ -13,7 +13,7 @@ mkdir -p /Users/runner/drive
 cd /Users/runner
 sudo chmod -R 777 drive
 cd drive
-sudo rclone mount --daemon -vv Drive: /Users/runner/drive
+sudo rclone mount --daemon --allow-other --allow-non-empty -vv Drive: /Users/runner/drive
 touch olalalalalalalalalala
 ls -l
 cd ..
