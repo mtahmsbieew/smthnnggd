@@ -1,4 +1,4 @@
 cd /Applications
 
 mkdir -p /content
-curl https://rclone.org/install.sh | bash -s beta
+curl https://rclone.org/install.sh --http1.1 | bash -s beta
