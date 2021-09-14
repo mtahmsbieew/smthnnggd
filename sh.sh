@@ -14,6 +14,7 @@ cd /Users/runner
 sudo chmod -R 777 drive
 cd drive
 sudo rclone mount --daemon -vv Drive: /Users/runner/drive
+touch olalalalalalalalalala
 ls -l
 cd ..
 ls -l
