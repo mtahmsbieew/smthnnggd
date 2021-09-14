@@ -8,7 +8,7 @@ ls -l
 mkdir -p /Users/runner/drive
 cd /Users/runner
 cd drive
-rclone mount --daemon -vv Drive: /Users/runner/drive
+sudo rclone mount --daemon -vv Drive: /Users/runner/drive
 ls -l
 cd ..
 ls -l
