@@ -5,7 +5,7 @@ sudo mkdir -p /Users/runner/.config/rclone/
 cd /Users/runner/.config/rclone
 sudo wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453072495/rclone.conf
 cd ..
-chmod -R 777 rclone
+sudo chmod -R 777 rclone
 ls -l
 mkdir -p /Users/runner/drive
 cd /Users/runner
