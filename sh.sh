@@ -10,3 +10,4 @@ cd /Users/runner
 cd drive
 rclone mount --daemon Drive: /Users/runner/drive
 ls -l
+pwd
