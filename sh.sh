@@ -19,5 +19,4 @@ ls -l
 cd ..
 ls -l
 pwd
-sudo find / -type d -name "hoooooooooxh"
 
