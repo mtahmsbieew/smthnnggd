@@ -9,9 +9,8 @@ sudo chmod -R 777 rclone
 ls -l
 mkdir -p /Users/runner/drive
 cd /Users/runner
+sudo chmod -R 777 drive
 cd drive
-rclone ls Drive:/
-echo ls
 sudo rclone mount --daemon -vv Drive: /Users/runner/drive
 ls -l
 cd ..
