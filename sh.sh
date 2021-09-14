@@ -5,5 +5,7 @@ mkdir -p /Users/runner/.config/rclone/
 cd /Users/runner/.config/rclone/
 wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453072495/rclone.conf
 mkdir -p /content/drive
+cd /content
+ls -l
 rclone mount --daemon Drive: /content/drive
 ls /content/drive
