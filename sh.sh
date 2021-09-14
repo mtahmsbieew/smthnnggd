@@ -4,9 +4,10 @@ sudo mkdir -p /Users/runner/.config/rclone/
 cd /Users/runner/.config/rclone
 sudo wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453072495/rclone.conf
 sudo wget https://rclone.org/install.sh
-sudo bash install.sh -s beta
 cd ..
 sudo chmod -R 777 rclone
+cd rclone
+sudo bash install.sh -s beta
 ls -l
 rclone lsd Drive:
 echo oooooooooooooo
