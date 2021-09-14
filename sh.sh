@@ -8,6 +8,6 @@ ls -l
 mkdir -p /Users/runner/drive
 cd /Users/runner
 cd drive
-rclone mount --daemon Drive: /Users/runner/drive
+rclone mount --daemon -vv Drive: /Users/runner/drive
 ls -l
 pwd
