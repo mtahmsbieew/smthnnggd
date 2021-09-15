@@ -7,13 +7,14 @@ sudo wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453
 cd ..
 sudo chmod -R 777 rclone
 rclone lsd Drive:
-echo oooooooooooooo
+echo oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 mkdir -p /Users/runner/drive
 cd /Users/runner
 cd && curl -O https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-osx-amd64.zip
 unzip -a rclone-v1.55.1-osx-amd64.zip && cd rclone-*-osx-amd64
 sudo mkdir -p /usr/local/bin
 sudo mv rclone /usr/local/bin/
+cd ..
 sudo chmod -R 777 drive
 cd drive
 rclone mount --daemon --allow-other --buffer-size 3g --allow-non-empty -vv Drive: /Users/runner/drive/
