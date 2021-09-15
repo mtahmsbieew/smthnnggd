@@ -16,8 +16,8 @@ sudo mv rclone /usr/local/bin/
 cd ..
 sudo chmod -R 777 drive
 rclone lsd Drive:
-cd drive
-rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty Drive: /Users/runner/drive/
+cd Documents
+rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty Drive: /Users/runner/Documents
 touch olalalalalalalalalala
 ls -al
 cd ..
