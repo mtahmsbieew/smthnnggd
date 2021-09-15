@@ -13,6 +13,9 @@ cd && curl -O https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-osx-amd64.zip
 unzip -a rclone-v1.55.1-osx-amd64.zip && cd rclone-*-osx-amd64
 sudo mkdir -p /usr/local/bin
 sudo mv rclone /usr/local/bin/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew uninstall osxfuse
+brew install macfuse
 cd ..
 sudo chmod -R 777 drive
 rclone lsd Drive:
