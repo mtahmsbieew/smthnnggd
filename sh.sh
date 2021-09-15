@@ -17,8 +17,8 @@ cd ..
 sudo chmod -R 777 drive
 rclone lsd Drive:
 cd Documents
-rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG -log-file=rclone.log remote: /Users/runner/Documents
-cat rclone.log
+rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG -log-file=/Users/runner/rclone.log remote: /Users/runner/Documents
+cat /Users/runner/rclone.log
 touch olalalalalalalalalala
 go version
 ls -al
