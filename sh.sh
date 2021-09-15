@@ -24,4 +24,4 @@ cd ..
 ls -al
 pwd
 ls /Users/runner/Documents
-mount
+umount /Users/runner/Documents
