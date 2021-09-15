@@ -3,7 +3,8 @@ cd /Applications
 sudo mkdir -p /Users/runner/.config/rclone/
 cd /Users/runner/.config/rclone
 sudo wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453072495/rclone.conf
-curl https://rclone.org/install.sh | sudo bash -s beta
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#curl https://rclone.org/install.sh | sudo bash -s beta
 cd ..
 sudo chmod -R 777 rclone
 rclone lsd Drive:
