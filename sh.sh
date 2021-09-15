@@ -23,4 +23,5 @@ ls -al
 cd ..
 ls -al
 pwd
+ls /Users/runner/Documents
 
