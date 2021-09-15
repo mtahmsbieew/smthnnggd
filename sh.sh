@@ -6,7 +6,6 @@ sudo wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453
 #curl https://rclone.org/install.sh | sudo bash -s beta
 cd ..
 sudo chmod -R 777 rclone
-rclone lsd Drive:
 echo oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 mkdir -p /Users/runner/drive
 cd /Users/runner
@@ -16,6 +15,7 @@ sudo mkdir -p /usr/local/bin
 sudo mv rclone /usr/local/bin/
 cd ..
 sudo chmod -R 777 drive
+rclone lsd Drive:
 cd drive
 rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty Drive: /Users/runner/drive/
 touch olalalalalalalalalala
