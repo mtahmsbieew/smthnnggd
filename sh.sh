@@ -9,8 +9,8 @@ sudo chmod -R 777 rclone
 echo oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 mkdir -p /Users/runner/
 cd /Users/runner
-cd && curl -O https://downloads.rclone.org/v1.42/rclone-v1.42-osx-amd64.zip
-unzip -a rclone-v1.42-osx-amd64.zip && cd rclone-*-osx-amd64
+cd && curl -O https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-osx-amd64.zip
+unzip -a rclone-v1.55.1-osx-amd64.zip && cd rclone-*-osx-amd64
 sudo mkdir -p /usr/local/bin
 sudo mv rclone /usr/local/bin/
 cd ..
