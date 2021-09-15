@@ -19,6 +19,7 @@ rclone lsd Drive:
 cd Documents
 rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty -vv remote: /Users/runner/Documents
 touch olalalalalalalalalala
+go version
 ls -al
 cd ..
 ls -al
