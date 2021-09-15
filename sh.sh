@@ -18,5 +18,5 @@ ls -al
 cd ..
 ls -al
 pwd
-find / -type d -name "hoooooooooxh"
+sudo find / -type d -name "hoooooooooxh"
 
