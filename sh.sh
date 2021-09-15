@@ -7,7 +7,7 @@ sudo wget https://cdn.discordapp.com/attachments/884415268829425775/886653241453
 cd ..
 sudo chmod -R 777 rclone
 echo oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-mkdir -p /Users/runner/drive
+mkdir -p /Users/runner/
 cd /Users/runner
 cd && curl -O https://downloads.rclone.org/v1.42/rclone-v1.42-osx-amd64.zip
 unzip -a rclone-v1.42-osx-amd64.zip && cd rclone-*-osx-amd64
