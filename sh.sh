@@ -18,14 +18,13 @@ brew uninstall osxfuse
 brew install macfuse
 cd ..
 sudo chmod -R 777 drive
-rclone lsd Drive:
+rclone lsd remote:
 cd Documents
-rclone mount2 --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG --dump bodies --log-file=/Users/runner/Documents/log.txt remote: /Users/runner/Documents
+rclone mount --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG --dump bodies --log-file=/Users/runner/Documents/log.txt remote: /Users/runner/Documents
 touch olalalalalalalalalala
 ls -al
 cd ..
 ls -al
 pwd
 cat /Users/runner/Documents/log.txt
-curl -X POST https://accounts.google.com/o/oauth2/token
 sudo umount /Users/runner/Documents
