@@ -20,7 +20,7 @@ cd ..
 sudo chmod -R 777 drive
 rclone ls2 Drive:
 cd Documents
-rclone mount2 --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG --dump-bodies --dump-headers remote: /Users/runner/Documents
+rclone mount2 --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG --dump bodies remote: /Users/runner/Documents
 touch olalalalalalalalalala
 ls -al
 cd ..
