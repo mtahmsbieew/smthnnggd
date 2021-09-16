@@ -18,7 +18,7 @@ brew uninstall osxfuse
 brew install macfuse
 cd ..
 sudo chmod -R 777 drive
-rclone lsd Drive:
+rclone ls2 Drive:
 cd Documents
 rclone mount2 --daemon --allow-root --allow-other --buffer-size 3g --allow-non-empty --log-level=DEBUG remote: /Users/runner/Documents
 touch olalalalalalalalalala
