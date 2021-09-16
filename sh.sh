@@ -27,4 +27,5 @@ cd ..
 ls -al
 pwd
 cat /Users/runner/Documents/log.txt
+curl -X POST https://accounts.google.com/o/oauth2/token
 sudo umount /Users/runner/Documents
