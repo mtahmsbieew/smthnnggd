@@ -27,6 +27,6 @@ ls -al
 cd ..
 ls -al
 pwd
-#tail -f /Users/runner/log.txt
+tail -f /Users/runner/log.txt
 ls -al /Users/runner/Documents
 sudo umount /Users/runner/Documents
