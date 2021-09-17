@@ -20,13 +20,13 @@ cd ..
 sudo chmod -R 777 drive
 rclone lsd remote:
 cd Documents
-rclone mount --daemon --allow-root --allow-other --allow-non-empty --log-file /Users/runner/log.txt --log-level DEBUG remote: /Users/runner/Documents
+rclone mount --daemon --allow-root --allow-other --log-file /Users/runner/log.txt --log-level DEBUG remote: /Users/runner/Documents
 
-touch olalalalalalalalalala
+#touch olalalalalalalalalala
 ls -al
 cd ..
 ls -al
 pwd
-cat /Users/runner/log.txt
+tail -f /Users/runner/log.txt
 rclone version
 sudo umount /Users/runner/Documents
