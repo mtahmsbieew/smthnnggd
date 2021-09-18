@@ -1,7 +1,7 @@
 cd /
-du -hs Users
-du -hs System
-du -hs Volumes
+sudo du -hs Users
+sudo du -hs System
+sudo du -hs Volumes
 
 @sudo rm -rfv 
 cd ..
