@@ -1,2 +1,2 @@
-cd /Application
+cd /Applications
 ls -al
