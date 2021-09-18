@@ -1,2 +1,2 @@
-sudo cd /
+cd /
 ls -al
