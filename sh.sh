@@ -1,5 +1,5 @@
 cd /Library
-rm -rf InstallerSandboxes Java Perl Python Ruby Sandbox
+sudo rm -rf InstallerSandboxes Java Perl Python Ruby Sandbox
 cd ..
-du -hs Library
+sudo du -hs Library
 ls -al
