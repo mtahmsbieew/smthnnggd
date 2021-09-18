@@ -15,11 +15,18 @@ sudo mv rclone /usr/local/bin/
 brew install osxfuse
 cd ..
 rclone lsd remote:
-cd Documents
 rclone mount2 --daemon --allow-other -o debug --log-file /Users/runner/log.txt --log-level DEBUG remote: /Users/runner/Documents
 rclone lsd remote:
 rclone lsf remote:
 #cat /Users/runner/log.txt
 ls -al /Users/runner/Documents
-touch olala
 #sudo umount /Users/runner/Documents
+
+brew install libsodium cmake git autoconf automake libtool wget
+brew link cmake
+git clone https://github.com/madMAx43v3r/chia-plotter.git 
+cd chia-plotter
+git submodule update --init
+./make_devel.sh
+./build/chia_plot --help
+wget https://raw.githubusercontent.com/facebookincubator/fizz/master/build/fbcode_builder/CMake/FindSodium.cmake -O /usr/local/opt/cmake/share/cmake/Modules/FindSodium.cmake
