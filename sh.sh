@@ -1,5 +1,5 @@
 cd /
-cd System/Volumes
+cd System/Volumes/Data
 
 #sudo rm -rfv 
 ls -al
