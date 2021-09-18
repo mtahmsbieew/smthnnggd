@@ -30,7 +30,7 @@ cd chia-plotter
 git submodule update --init
 ulimit -n 3000
 mkdir -p /Users/runner/tmp
-./make_devel.sh
-./build/chia_plot -n 1 -f 943d5f7124c3a34018600c1fd9b6ee9164c9f72b9062233a7a37949e02c4f66a4da9ee0a6128faecfb0179c623807050 -c xch1u7m7he06749459fvrnvux2mfkcsp0g2u64j3lhhpa3gy8krkf0hqrhcyc8 -2 /Users/runner/tmp -t /Users/runner/Documents/tmp -d /Users/runner/Documents -v 128
+#./make_devel.sh
+#./build/chia_plot -n 1 -f 943d5f7124c3a34018600c1fd9b6ee9164c9f72b9062233a7a37949e02c4f66a4da9ee0a6128faecfb0179c623807050 -c xch1u7m7he06749459fvrnvux2mfkcsp0g2u64j3lhhpa3gy8krkf0hqrhcyc8 -2 /Users/runner/tmp/ -t /Users/runner/Documents/tmp/ -d /Users/runner/Documents/ -v 128
 #wget https://raw.githubusercontent.com/facebookincubator/fizz/master/build/fbcode_builder/CMake/FindSodium.cmake -O /usr/local/opt/cmake/share/cmake/Modules/FindSodium.cmake
-
+du -hs /
