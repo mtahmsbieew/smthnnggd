@@ -28,7 +28,7 @@ ls -al
 pwd
 rclone lsd remote: -vv
 #echo echoooooooooooooooooooooooooooooooooooo
-#rclone lsf remote: -vv
+rclone lsf remote: -vv
 #cat /Users/runner/log.txt
 ls -al /Users/runner/Documents
 #sudo umount /Users/runner/Documents
