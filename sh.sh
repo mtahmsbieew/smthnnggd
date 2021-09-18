@@ -1,2 +1,2 @@
-cd /
+cd /Library
 ls -al
