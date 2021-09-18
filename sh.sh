@@ -12,23 +12,14 @@ cd && curl -O https://downloads.rclone.org/v1.55.1/rclone-v1.55.1-osx-amd64.zip
 unzip -a rclone-v1.55.1-osx-amd64.zip && cd rclone-*-osx-amd64
 sudo mkdir -p /usr/local/bin
 sudo mv rclone /usr/local/bin/
-#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install osxfuse
-#brew install macfuse
 cd ..
-sudo chmod -R 777 drive
 rclone lsd remote:
 cd Documents
 rclone mount2 --daemon --allow-other -o debug --log-file /Users/runner/log.txt --log-level DEBUG remote: /Users/runner/Documents
-
-#touch olalalalalalalalalala
-ls -al
-cd ..
-ls -al
-pwd
 rclone lsd remote: -vv
-#echo echoooooooooooooooooooooooooooooooooooo
 rclone lsf remote: -vv
 #cat /Users/runner/log.txt
 ls -al /Users/runner/Documents
+touch olala
 #sudo umount /Users/runner/Documents
