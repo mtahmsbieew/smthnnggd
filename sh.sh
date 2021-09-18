@@ -14,7 +14,7 @@ sudo mkdir -p /usr/local/bin
 sudo mv rclone /usr/local/bin/
 #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #brew uninstall osxfuse
-#brew install macfuse
+brew install macfuse
 cd ..
 sudo chmod -R 777 drive
 rclone lsd remote:
