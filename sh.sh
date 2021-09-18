@@ -17,8 +17,8 @@ cd ..
 rclone lsd remote:
 cd Documents
 rclone mount2 --daemon --allow-other -o debug --log-file /Users/runner/log.txt --log-level DEBUG remote: /Users/runner/Documents
-rclone lsd remote: -vv
-rclone lsf remote: -vv
+rclone lsd remote:
+rclone lsf remote:
 #cat /Users/runner/log.txt
 ls -al /Users/runner/Documents
 touch olala
