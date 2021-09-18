@@ -1,9 +1,6 @@
 cd /
-sudo du -hs Users
 sudo du -hs System
-sudo du -hs Volumes
+cd System
 
-@sudo rm -rfv 
-cd ..
-sudo du -hs Library
+#sudo rm -rfv 
 ls -al
