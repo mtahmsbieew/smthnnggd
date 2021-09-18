@@ -26,7 +26,7 @@ ls -al
 cd ..
 ls -al
 pwd
-#rclone lsd remote: -vv
+rclone lsd remote: -vv
 #echo echoooooooooooooooooooooooooooooooooooo
 #rclone lsf remote: -vv
 #cat /Users/runner/log.txt
