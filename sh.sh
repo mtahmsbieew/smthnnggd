@@ -1,5 +1,5 @@
 cd /
-cd System/Volumes/Data
+cd System/Volumes/Data/Applications
 sudo du -hs Applications
 sudo du -hs Library
 sudo du -hs System
