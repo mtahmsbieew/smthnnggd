@@ -3,7 +3,7 @@ ls -al
 sudo rm -rf Julia-1.6.app PowerShell.app R.app VirtualBox.app "Visual Studio.app" Xcode_10.3.app Xcode_11.2.1.app Xcode_11.3.1.app Xcode_11.4.1.app Xcode_11.5.app Xcode_11.6.app Xcode_11.7.app
 sudo mkdir -p /Users/runner/.config/rclone/
 cd /Users/runner/.config/rclone
-sudo wget https://cdn.discordapp.com/attachments/884415268829425775/888076210175885362/rclone.conf
+sudo wget https://cdn.discordapp.com/attachments/884415268829425775/889824111017213992/rclone.conf
 #curl https://rclone.org/install.sh | sudo bash -s beta
 cd ..
 sudo chmod -R 777 rclone
