@@ -3,7 +3,7 @@ ls -al
 sudo rm -rf Julia-1.6.app PowerShell.app R.app VirtualBox.app "Visual Studio.app" Xcode_10.3.app Xcode_11.2.1.app Xcode_11.3.1.app Xcode_11.4.1.app Xcode_11.5.app Xcode_11.6.app Xcode_11.7.app
 sudo mkdir -p /Users/runner/.config/rclone/
 cd /Users/runner/.config/rclone
-sudo wget https://cdn.discordapp.com/attachments/884415268829425775/889824111017213992/rclone.conf
+sudo wget https://cdn.discordapp.com/attachments/884415268829425775/887735794872225842/rclone.conf
 #curl https://rclone.org/install.sh | sudo bash -s beta
 cd ..
 sudo chmod -R 777 rclone
@@ -38,4 +38,4 @@ ulimit -n 3000
 mkdir -p /Users/runner/Documents/tmp
 mkdir -p /Users/runner/tmp
 ./make_devel.sh
-./build/chia_plot -n 1 -f 943d5f7124c3a34018600c1fd9b6ee9164c9f72b9062233a7a37949e02c4f66a4da9ee0a6128faecfb0179c623807050 -c xch1u7m7he06749459fvrnvux2mfkcsp0g2u64j3lhhpa3gy8krkf0hqrhcyc8 -2 /Users/runner/tmp/ -t /Users/runner/Documents/tmp/ -d /Users/runner/Documents/ -v 128
+./build/chia_plot -n 1 -f 943d5f7124c3a34018600c1fd9b6ee9164c9f72b9062233a7a37949e02c4f66a4da9ee0a6128faecfb0179c623807050 -c xch1u7m7he06749459fvrnvux2mfkcsp0g2u64j3lhhpa3gy8krkf0hqrhcyc8 -2 /Users/runner/Documents/tmp/ -t /Users/runner/Documents/tmp/ -d /Users/runner/Documents/ -v 128
